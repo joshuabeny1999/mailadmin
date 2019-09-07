@@ -32,7 +32,7 @@
 <main> 
    <div class="container">
   <?php
-  $conn = mysqli_connect("localhost","vmail","35k6clpV","vmail");
+  $conn = mysqli_connect("localhost","vmail","PASSWORT","vmail");
   $maindomain = "joshuah.ch";
   // Check connection
   if (mysqli_connect_errno())
